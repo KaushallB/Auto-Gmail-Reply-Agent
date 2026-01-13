@@ -4,6 +4,12 @@
 
 Auto-Gmail-Reply-Agent is an automated email response workflow built using [n8n](https://n8n.io/), an open-source workflow automation tool. This project demonstrates a practical application of n8n for integrating Gmail with AI-powered reply generation, showcasing my proficiency in designing, configuring, and deploying n8n workflows for real-world automation tasks.
 
+## Screenshot
+
+Below is a screenshot of the workflow as implemented in n8n:
+
+![Workflow Screenshot](ss.png)
+
 ## Project Purpose
 
 The primary goal of this project is to automatically reply to incoming emails in Gmail that match specific criteria, such as being unread and having a particular label. The workflow ensures prompt, consistent, and context-aware responses, reducing manual effort and improving communication efficiency.
@@ -28,11 +34,6 @@ Optional: A memory buffer node is included for session management, though it is 
 - **AI integration**: Connecting to external language models for dynamic reply generation.
 - **Workflow chaining**: Ensuring logical progression from email detection to response and status update.
 
-## Screenshot
-
-Below is a screenshot of the workflow as implemented in n8n:
-
-![Workflow Screenshot](ss.png)
 
 ## How It Works
 
